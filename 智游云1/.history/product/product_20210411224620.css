@@ -1,0 +1,93 @@
+.billboard {
+    margin-top: -2%;
+    margin-bottom: 0%;
+    text-align: center;
+    width: 100%;
+    height: 486px;
+    z-index: 1;
+    background: #34576D url(images/bigpicbg.jpg) no-repeat center top;
+}
+
+.billboard h1 {
+    color: #fff;
+    padding-top: 80px;
+    margin: 3%;
+    font-size: 100px;
+}
+
+.billboard h2 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.platform {
+    width: 50%;
+    margin: 5% 25% 0% 24%;
+}
+
+.platform_content {
+    margin: 5% 3% 0% 5%;
+    float: left;
+}
+
+.platform_content a {
+    border: solid 1px #fff;
+    color: #fff;
+    padding: 10px 40px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.platform_content a:hover {
+    box-shadow: 0.25px 0.25px 2px 2px #f1f1f1 inset;
+}
+
+.main {
+    margin-top: -2%;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+.main_title {
+    margin: 0px 30% 20px 30%;
+}
+
+.main_title p {
+    padding: 30px 50px;
+    font-size: 15px;
+    float: left;
+    border-bottom: solid 1px #555;
+}
+
+.main_con {
+    width: 100%;
+    overflow: auto;
+}
+
+.mod {
+    margin: 1% 8%;
+}
+
+.card {
+    border: solid 1px #fff;
+    margin: auto 10px;
+    background-color: rgba(255, 255, 255, 0.651);
+    padding: 20px 20px;
+    width: 20%;
+    float: left;
+}
+
+.card p {
+    font-size: 12px;
+    text-align: left;
+}
+
+.card a {
+    margin-top: 5px;
+    padding: 5px;
+    background-color: darkmagenta;
+    font-size: 12px;
+    float: right;
+    color: #fff;
+    text-decoration: none;
+}

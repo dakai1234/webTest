@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .header {
+            background-color: #555;
+            width: 100%;
+            overflow: auto;
+        }
+        
+        .header a {
+            float: left;
+            width: 15%;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 15px;
+            text-decoration: none;
+            font-size: 15px;
+        }
+        
+        .header a:hover {
+            background-color: #333;
+        }
+        
+        .logo_img {
+            float: left;
+            padding: 5px 0px;
+        }
+        
+        .banner_img_div {
+            width: 100%;
+        }
+        
+        .banner_img {
+            width: 100%;
+        }
+        
+        .tabs {
+            width: 80%;
+            margin: 30px auto;
+            background-color: #FFF;
+            border: 1px solid #C0DCC0;
+            box-sizing: border-box;
+        }
+        
+        .tabs nav {
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            overflow: hidden;
+            background-color: #C0DCC0;
+            display: flex;
+        }
+        
+        nav a {
+            display: inline;
+            width: 20%;
+            border-right: 1px solid #FFF;
+            color: #000;
+            text-decoration: none;
+        }
+        
+        nav a:last-child {
+            border-right: 0 none;
+        }
+        
+        nav a.active {
+            background-color: #9BAF9B;
+        }
+        
+        .cont {
+            overflow: hidden;
+            display: none;
+            float: left;
+        }
+        
+        .front_end_dw {
+            width: 25%;
+            float: left;
+        }
+    </style>
+
+    <title>关于我们</title>
+</head>
+
+<body>
+    <div class="header">
+        <img class="logo_img" src="images/logo.png">
+        <a href="#"> 首页 </a>
+        <a href="#"> 产品介绍 </a>
+        <a href="#"> 关于智游云 </a>
+        <a href="#"> 关于我们 </a>
+    </div>
+
+    <div class="banner_img_div">
+
+        <img class="banner_img" src="images/banner.jpg">
+
+    </div>
+    <div class="tabs">
+        <nav>
+            <a href="javascript:;" data-cont="front_end">前端开发</a>
+            <a href="javascript:;" data-cont="back_end">后端开发</a>
+            <a href="javascript:;" data-cont="move">移动开发</a>
+            <a href="javascript:;" data-cont="data_deal">数据处理</a>
+            <a href="javascript:;" data-cont="us">我们</a>
+        </nav>
+
+        <section class="cont" id="front_end">
+
+            <div class="front_end_dw">
+                <img class="dw_img" src="images/dw.jpg">
+                <p>DW-Dreamweaver</p>
+                <p>网页制作工具排行榜前三的神器。</p>
+                <p>html，css，js等前端语言都可以用它编写。</p>
+            </div>
+
+            <div class="front_end_dw">
+                <img class="dw_img" src="images/dw.jpg">
+                <p>DW-Dreamweaver</p>
+                <p>网页制作工具排行榜前三的神器。</p>
+                <p>html，css，js等前端语言都可以用它编写。</p>
+            </div>
+
+            <div class="front_end_dw">
+                <img class="dw_img" src="images/dw.jpg">
+                <p>DW-Dreamweaver</p>
+                <p>网页制作工具排行榜前三的神器。</p>
+                <p>html，css，js等前端语言都可以用它编写。</p>
+            </div>
+
+            <div class="front_end_dw">
+                <img class="dw_img" src="images/dw.jpg">
+                <p>DW-Dreamweaver</p>
+                <p>网页制作工具排行榜前三的神器。</p>
+                <p>html，css，js等前端语言都可以用它编写。</p>
+            </div>
+        </section>
+
+        <section class="cont" id="back_end">
+            <div id="back_end_dw">
+                <img class="dw_img" src="images/dw.jpg">
+                <p>DW-Dreamweaver</p>
+                <p>网页制作工具排行榜前三的神器。</p>
+                <p>html，css，js等前端语言都可以用它编写。</p>
+            </div>
+            <div id="back_end_dw">
+                <img class="dw_img" src="images/dw.jpg">
+                <p>DW-Dreamweaver</p>
+                <p>网页制作工具排行榜前三的神器。</p>
+                <p>html，css，js等前端语言都可以用它编写。</p>
+            </div>
+            <div id="back_end_dw">
+                <img class="dw_img" src="images/dw.jpg">
+                <p>DW-Dreamweaver</p>
+                <p>网页制作工具排行榜前三的神器。</p>
+                <p>html，css，js等前端语言都可以用它编写。</p>
+            </div>
+            <div id="back_end_dw">
+                <img class="dw_img" src="images/dw.jpg">
+                <p>DW-Dreamweaver</p>
+                <p>网页制作工具排行榜前三的神器。</p>
+                <p>html，css，js等前端语言都可以用它编写。</p>
+            </div>
+        </section>
+
+        <section class="cont" id="move">
+            <div id="move_dw">
+                <img class="dw_img" src="images/dw.jpg">
+                <p>DW-Dreamweaver</p>
+                <p>网页制作工具排行榜前三的神器。</p>
+                <p>html，css，js等前端语言都可以用它编写。</p>
+            </div>
+            <div id="move_dw">
+                <img class="dw_img" src="images/dw.jpg">
+                <p>DW-Dreamweaver</p>
+                <p>网页制作工具排行榜前三的神器。</p>
+                <p>html，css，js等前端语言都可以用它编写。</p>
+            </div>
+            <div id="move_dw">
+                <img class="dw_img" src="images/dw.jpg">
+                <p>DW-Dreamweaver</p>
+                <p>网页制作工具排行榜前三的神器。</p>
+                <p>html，css，js等前端语言都可以用它编写。</p>
+            </div>
+            <div id="move_dw">
+                <img class="dw_img" src="images/dw.jpg">
+                <p>DW-Dreamweaver</p>
+                <p>网页制作工具排行榜前三的神器。</p>
+                <p>html，css，js等前端语言都可以用它编写。</p>
+            </div>
+        </section>
+
+        <section class="cont" id="data_deal">
+            <div id="data-cont_dw">
+                <img class="dw_img" src="images/dw.jpg">
+                <p>DW-Dreamweaver</p>
+                <p>网页制作工具排行榜前三的神器。</p>
+                <p>html，css，js等前端语言都可以用它编写。</p>
+            </div>
+            <div id="data-cont_dw">
+                <img class="dw_img" src="images/dw.jpg">
+                <p>DW-Dreamweaver</p>
+                <p>网页制作工具排行榜前三的神器。</p>
+                <p>html，css，js等前端语言都可以用它编写。</p>
+            </div>
+            <div id="data-cont_dw">
+                <img class="dw_img" src="images/dw.jpg">
+                <p>DW-Dreamweaver</p>
+                <p>网页制作工具排行榜前三的神器。</p>
+                <p>html，css，js等前端语言都可以用它编写。</p>
+            </div>
+            <div id="data-cont_dw">
+                <img class="dw_img" src="images/dw.jpg">
+                <p>DW-Dreamweaver</p>
+                <p>网页制作工具排行榜前三的神器。</p>
+                <p>html，css，js等前端语言都可以用它编写。</p>
+            </div>
+        </section>
+
+        <section class="cont" id="us">
+            <div id="us_dw">
+                <img class="dw_img" src="images/dw.jpg">
+                <p>DW-Dreamweaver</p>
+                <p>网页制作工具排行榜前三的神器。</p>
+                <p>html，css，js等前端语言都可以用它编写。</p>
+            </div>
+            <div id="us_dw">
+                <img class="dw_img" src="images/dw.jpg">
+                <p>DW-Dreamweaver</p>
+                <p>网页制作工具排行榜前三的神器。</p>
+                <p>html，css，js等前端语言都可以用它编写。</p>
+            </div>
+            <div id="us_dw">
+                <img class="dw_img" src="images/dw.jpg">
+                <p>DW-Dreamweaver</p>
+                <p>网页制作工具排行榜前三的神器。</p>
+                <p>html，css，js等前端语言都可以用它编写。</p>
+            </div>
+            <div id="us_dw">
+                <img class="dw_img" src="images/dw.jpg">
+                <p>DW-Dreamweaver</p>
+                <p>网页制作工具排行榜前三的神器。</p>
+                <p>html，css，js等前端语言都可以用它编写。</p>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // 目标： 默认显示一个 当前的样式
+        // 点击导航，实现切换
+        // key 表示的当前显示的是第几个
+
+        (function(key) {
+            // 获取所有的导航
+            var navs = document.querySelectorAll('nav a');
+            // 遍历 给导航 绑定事件，并且添加当前样式
+            for (var i = 0; i < navs.length; i++) {
+                // 如果是用户指定的当前样式
+                if (key == i) {
+                    navs[i].classList.add('active');
+                    // 拿到要显示内容section的id
+                    var secId = navs[i].dataset['cont'];
+                    // 获取对应的section标签
+                    document.querySelector('#' + secId).style.display = 'inline';
+                }
+
+                // 给每一个导航绑定点击事件
+                navs[i].onclick = function() {
+                    // 排他
+                    // 之前有active样式的清除, 之前显示的section 隐藏
+                    var currentNav = document.querySelector('.active');
+                    // 获取对应的内容区域 ，让其隐藏
+                    var currentId = currentNav.dataset['cont'];
+                    // 去掉导航的active 样式
+                    currentNav.classList.remove('active');
+                    // 对应的内容区域
+                    document.querySelector('#' + currentId).style.display = 'none';
+
+                    // 突出显示自己 导航添加样式  对应的section 显示
+                    // 给自己添加active样式
+                    this.classList.add('active');
+                    // 对应的section模块显示出来
+                    var myId = this.dataset['cont'];
+                    document.querySelector('#' + myId).style.display = 'inline';
+                }
+            }
+
+        })(0);
+    </script>
+</body>
+
+</html>

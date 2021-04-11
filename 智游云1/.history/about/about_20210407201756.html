@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .header {
+            background-color: #555;
+            width: 100%;
+            overflow: auto;
+        }
+        
+        .header a {
+            float: left;
+            width: 15%;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 15px;
+            text-decoration: none;
+            font-size: 15px;
+        }
+        
+        .header a:hover {
+            background-color: #333;
+        }
+        
+        .logo_img {
+            float: left;
+            padding: 5px 0px;
+        }
+        
+        .banner_img_div {
+            width: 100%;
+        }
+        
+        .banner_img {
+            width: 100%;
+        }
+        
+        .tab {
+            float: left;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+            width: 25%;
+            height: 500px;
+        }
+        
+        .tab button {
+            display: block;
+            background-color: inherit;
+            width: 20%;
+            border: none;
+            outline: none;
+            padding: 10px 15px;
+            text-align: left;
+            transition: 0.2s;
+            font-size: 15px;
+        }
+        
+        .tab button:hover {
+            background-color: #ddd;
+        }
+        
+        .tab button.active {
+            background-color: #ccc;
+        }
+        
+        .tabcontent {
+            float: left;
+            padding: 0px 12px;
+            border: 1px solid #ccc;
+            width: 40%;
+            border-left: none;
+            height: 25%;
+        }
+        
+        .qianduan_content {
+            float: left;
+        }
+    </style>
+
+    <script>
+    </script>
+
+    <title>关于我们</title>
+</head>
+
+<body>
+    <div class="header">
+        <img class="logo_img" src="images/logo.png">
+        <a href="#"> 首页 </a>
+        <a href="#"> 产品介绍 </a>
+        <a href="#"> 关于智游云 </a>
+        <a href="#"> 关于我们 </a>
+    </div>
+
+    <div class="banner_img_div">
+
+        <img class="banner_img" src="images/banner.jpg">
+
+    </div>
+    <div>
+        <nav>
+            <a href="javascript:;" data-cont="front_end">前端开发</a>
+            <a href="javascript:;" data-cont="back_end">后端开发</a>
+            <a href="javascript:;" data-cont="move">移动开发</a>
+            <a href="javascript:;" data-cont="data_deal">数据处理</a>
+            <a href="javascript:;" data-cont="us">我们</a>
+        </nav>
+
+        <section id="front_end">
+            <img class="dw_img" src="images/dw.jpg">
+        </section>
+
+        <section id="back_end">
+            <img class="dw_img" src="images/dw.jpg">
+        </section>
+
+        <section id="move">
+            <img class="dw_img" src="images/dw.jpg">
+        </section>
+
+        <section id="data_deal">
+            <img class="dw_img" src="images/dw.jpg">
+        </section>
+
+        <section id="us">
+            <img class="dw_img" src="images/dw.jpg">
+        </section>
+    </div>
+
+
+    <div id="前端开发" class="tabcontent">
+        <div class="qianduan_content">
+
+            <img class="dw_img" src="images/dw.jpg">
+            <p>DW-Dreamweaver</p>
+            <p>网页制作工具排行榜前三的神器</p>
+            <p>html,css,js等前端语言都可以用它编写</p>
+        </div>
+        <div class="qianduan_content">
+
+            <img class="ps_img" src="images/ps.jpg">
+            <p>PS-Photoshop</p>
+            <p>图像处理制作一体化软件</p>
+            <p>我们制作网页之前的界面设计主要都是它完成。当然，我们也用它来做图。</p>
+        </div>
+        <div class="qianduan_content">
+
+            <img class="ai_img" src="images/ai.jpg">
+            <p>AI-Adobe Illustrator</p>
+            <p>图片处理工具</p>
+            <p>我们用来制作网页上的各种精致的矢量图以及手机端的图标设计。</p>
+        </div>
+        <div class="qianduan_content">
+
+            <img class="fl_img" src="images/fl.jpg">
+            <p>FL-FLASH</p>
+            <p>动画创作软件</p>
+            <p>页面上的小动画以及项目流程演示，我们都用它。</p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+.billboard {
+    margin-top: 3%;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background: #34576D url(/images/bigpicbg.jpg) no-repeat center top;
+}

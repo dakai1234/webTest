@@ -1,0 +1,31 @@
+.billboard {
+    margin-top: 3%;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background: #34576D url(/images/bigpicbg.jpg) no-repeat center top;
+}
+
+.billboard h1 {
+    font-size: 100px;
+}
+
+.billboard h3 {
+    font-size: 75px;
+}
+
+.platform {
+    width: 50%;
+    margin: 5% 20%;
+}
+
+.platform_content {
+    margin: auto;
+    float: left;
+}
+
+.platform_content a {
+    padding: 10% 10%;
+    font-size: 30px;
+    text-decoration: none;
+}

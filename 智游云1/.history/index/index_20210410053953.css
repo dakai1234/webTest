@@ -1,0 +1,54 @@
+.logo_img {
+    float: left;
+    padding: 5px 0px;
+}
+
+.banner_img {
+    text-align: center;
+    background: url(images/banner.jpg) no-repeat;
+    background-size: 100% 200px;
+}
+
+.new_content {
+    padding: 0% 20%;
+    overflow: auto;
+    text-align: center;
+}
+
+.new_content p {
+    display: block;
+    font-size: 10px;
+    width: 20%;
+    float: left;
+}
+
+.new_content p:hover {
+    color: aquamarine
+}
+
+.content_img {
+    padding-left: 10%;
+    margin-top: 10px;
+    text-align: center;
+    overflow: auto;
+}
+
+.content_img div {
+    float: left;
+    overflow: auto;
+}
+
+.title {
+    padding-left: 15%;
+    overflow: hidden;
+}
+
+.title_content {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.title_content p {
+    font-size: 10px;
+}

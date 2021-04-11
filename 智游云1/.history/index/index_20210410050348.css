@@ -1,0 +1,82 @@
+.logo_img {
+    float: left;
+    padding: 5px 0px;
+}
+
+.banner_img {
+    text-align: center;
+    background: url(images/banner.jpg) no-repeat;
+    background-size: 100% 200px;
+}
+
+.new_content {
+    padding: 0% 17%;
+    overflow: hidden;
+}
+
+.new_content p {
+    display: block;
+    font-size: 10px;
+    width: 15%;
+    float: left;
+}
+
+.new_content p:hover {
+    color: aquamarine
+}
+
+.content_img {
+    padding: 0% 10%;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.content_img div {
+    float: left;
+}
+
+.introduce1 {
+    width: 20%;
+}
+
+.introduce2 {
+    width: 20%;
+}
+
+.s1 {
+    width: 40%;
+}
+
+.tip1 {
+    width: 10%;
+}
+
+.title {
+    padding: 0% 10%;
+    overflow: hidden;
+}
+
+.title_content {
+    width: 20%;
+    float: left;
+}
+
+.title_content p {
+    font-size: 8px;
+}
+
+.one {
+    width: 20%;
+}
+
+.two {
+    width: 20%;
+}
+
+.three {
+    width: 20%;
+}
+
+.four {
+    width: 20%;
+}

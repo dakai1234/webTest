@@ -1,0 +1,81 @@
+.banner_img {
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 66%;
+    left: 0;
+    z-index: -1;
+    background: url(images/banner.jpg) no-repeat;
+    background-size: 100% 200px;
+}
+
+.content {
+    background-color: white;
+    z-index: 0;
+}
+
+.new_content {
+    margin-top: 16%;
+    padding: 10px 20%;
+    overflow: auto;
+    text-align: center;
+}
+
+.new_content p {
+    display: block;
+    font-size: 10px;
+    width: 20%;
+    float: left;
+}
+
+.new_content p:hover {
+    color: aquamarine
+}
+
+.content_img {
+    padding: 0% 8% 0% 10%;
+    margin-top: 10px;
+    overflow: auto;
+}
+
+.introduce {
+    float: left;
+    overflow: auto;
+    text-align: center;
+}
+
+.tip {
+    text-align: center;
+}
+
+.title {
+    padding-left: 15%;
+    margin: 3%;
+    overflow: hidden;
+}
+
+.title_content {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.title_content h3 {
+    color: green;
+}
+
+.title_content p {
+    margin: 30px 0px 15px 0px;
+    font-size: 12px;
+}
+
+.content_img1 {
+    padding: 0% 8%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.introduce1 img {
+    width: 25%;
+    float: left;
+}
