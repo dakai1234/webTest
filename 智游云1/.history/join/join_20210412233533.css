@@ -1,0 +1,15 @@
+.content {
+    width: 100%;
+    margin-top: 3%;
+    height: 800px;
+    border: 0px solid aliceblue;
+    background-color: aliceblue;
+    background-size: 800px;
+}
+
+.content_space {
+    border: 1px solid #555;
+    background-color: white;
+    height: 600px;
+    margin: 80px 15%;
+}
